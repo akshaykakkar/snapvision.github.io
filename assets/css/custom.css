@@ -3985,6 +3985,7 @@ section:not(.imagebg):not([class*='bg-']) + section.bg--secondary {
 }
 section.bg--secondary:not(.imagebg) + section:not(.imagebg):not([class*='bg-']) {
   border-top: 1px solid #ebebeb;
+  border-bottom:1px solid #ebebeb
 }
 section.bg--secondary:not(.unpad):not(.imageblock):not(.unpad--bottom):not(.border--bottom) + section.bg--secondary {
   padding-top: 0;
@@ -9018,10 +9019,10 @@ footer.footer-7 {
 }
 
 
-
+@media all and (min-width:768px){
 .feature.feature-3.boxed.boxed--lg.boxed--border {
-    height: 430px;
-}
+    min-height: 448.5px;
+}}
 
 p.lead{font-weight: 400;
 color: #808080;}
