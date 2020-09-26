@@ -8932,7 +8932,7 @@ footer.footer-6 .footer__lower {
   padding: 1.85714286em 0;
 }
 footer.footer-6.bg--dark .footer__lower {
-  background: #181818;
+  background: #1b1b1b;
 }
 footer.footer-6.bg--secondary .footer__lower {
   background: #f5f5f5;
@@ -9022,3 +9022,12 @@ footer.footer-7 {
 .feature.feature-3.boxed.boxed--lg.boxed--border {
     height: 430px;
 }
+
+p.lead{font-weight: 400;
+color: #808080;}
+
+
+.contact-short {
+    padding-top: 40px !important;
+padding-bottom: 40px !important;
+background:#fafafa;}
