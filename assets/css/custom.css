@@ -9047,3 +9047,8 @@ background:#fafafa;}
   display: flex;
   flex-direction: column;
 }
+
+@media all and (max-width:697px){
+.services-section .col-sm-4 {
+  width:100%;
+}}
