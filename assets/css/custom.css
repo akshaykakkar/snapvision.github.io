@@ -2182,6 +2182,14 @@ section.slider .flickity-page-dots {
     padding-bottom: 2em;
   }
 }
+
+@media all and (min-width: 767px) {
+  .modal-container .modal-content {
+    width: 60% !important;
+    height: auto !important;
+ 
+  }
+}
 /**! 22. Maps **/
 .map-container {
   position: relative;
@@ -9052,3 +9060,5 @@ background:#fafafa;}
 .services-section .col-sm-4 {
   width:100%;
 }}
+
+@media all and (min-width:700px){.contact-form{width:700px;}}
