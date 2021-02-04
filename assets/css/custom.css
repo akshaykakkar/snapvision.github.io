@@ -1,4 +1,5 @@
 /**!**************/
+/**!**************/
 /**! Contents **/
 /**! 01. Reset **/
 /**! 02. Typography **/
@@ -9055,6 +9056,11 @@ background:#fafafa;}
   display: flex;
   flex-direction: column;
 }
+.services-section .product-suite .col-sm-4 {
+  display: flex;
+  flex-direction: column;
+  padding-bottom:15px;
+}
 
 @media all and (max-width:697px){
 .services-section .col-sm-4 {
@@ -9062,3 +9068,29 @@ background:#fafafa;}
 }}
 
 @media all and (min-width:700px){.contact-form{width:700px;}}
+.services-section .product-suite h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+letter-spacing: .18em;}
+
+.product-suite .box--border{-webkit-box-shadow: 0 14px 34px 4px rgb(0 0 0 / 10%);
+    -moz-box-shadow: 0 14px 34px 4px rgba(0,0,0,.1);
+    box-shadow: 0 14px 34px 4px rgb(0 0 0 / 10%);
+    
+    cursor: pointer;
+    -webkit-filter: drop-shadow(0 34px 54px rgba(24, 12, 166, .11));
+    filter: drop-shadow(0 34px 54px rgba(24, 12, 166, .11));
+    -webkit-transition: background .15s ease,-webkit-transform .25s ease;
+    -moz-transition: background .15s ease,-moz-transform .25s ease;
+    -o-transition: background .15s ease,-o-transform .25s ease;
+transition: background .15s ease,transform .25s ease;}
+.header-tags{ background-color: #062F87;
+    color: #fff;
+    width: 100%;
+    border-radius: 58px;
+    padding: 4px 12px;
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 15px;}
